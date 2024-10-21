@@ -17,5 +17,5 @@ ________________________________________________________________________________
 ----------- Steps to make the extension work for you -------------
 
 1. Clone the repo and save it in a location x.
-2. Go to your browser options on top right > extensions > manage extensions > load unpapcked > refresh.
+2. Go to your browser options on top right > extensions > manage extensions > load unpapcked > choose location x > refresh.
 3. Open chatgpt or google and start chatting.
