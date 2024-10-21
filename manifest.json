@@ -1,0 +1,45 @@
+{
+  "manifest_version": 3,
+  "name": "Limited Anonymizer Toggle",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://www.google.com/*",
+    "https://chat.openai.com/*",
+    "https://chatgpt.com/*"
+  ],
+  "action": {
+    "default_title": "Limited Anonymizer Toggle",
+    "default_icon": "img.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*",
+        "https://chat.openai.com/*",
+        "https://chatgpt.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
