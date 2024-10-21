@@ -18,4 +18,6 @@ ________________________________________________________________________________
 
 1. Clone the repo and save it in a location x.
 2. Go to your browser options on top right > extensions > manage extensions > load unpapcked > choose location x > refresh.
-3. Open chatgpt or google and start chatting.
+3. Open chatgpt or google and start chatting by writing your query.
+4. If you press 'tab' button then, your query in the searchbar is instantly anonymized if the anonymizer toggle has been set to green. If you want to submit this anonymized version of the query, then press enter. If you prefer your query to be not anonymous, then press 'Alt' and the anonymous query will again revert back to your original query
+5. After lot of testing, its found that Anonymizer is bad at anonymzing queries relating to mathematical equations and puzzles. For such queries, its better to keep anonymizer off. 
