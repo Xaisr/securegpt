@@ -13,7 +13,7 @@ ________________________________________________________________________________
 
 # How it works
 1. An Anonymizer class using pretrained ML based named entity recognition model identifies words that reveal potential personal information in user chat queries with chatgpt. Personal information could be names, organizations, credit card number, bank balance, phone numbers.
-2. These words are then replaced with anonymous placeholder words that are based on fuzzy logic matching with avg. threshold of 80
+2. These words are then replaced with anonymous placeholder words that are based on fuzzy logic matching with avg. threshold of ~80
 3. The word-placeholder dictionary is maintained for reference and new assignment of placeholders based on fuzzy logic matching.
  
 # How to get started with this extension 
