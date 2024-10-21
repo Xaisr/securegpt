@@ -5,7 +5,7 @@ ________________________________________________________________________________
 # Contents
 1. manifest.js (critical) : js code containing meta details about wesbite permissions and accessibility rights.
 2. content.js (critical) : js code containing hows/whens/whats of the web page interaction with backend server logic
-3. anonap.py (critical) : python flask app that runs the anonymizing logic locally in the backend. its triggered when the user presses tab in the webpage.
+3. anonapp.py (critical) : python flask app that runs the anonymizing logic locally in the backend. its triggered when the user presses tab in the webpage.
 4. popup.html (retired)
 5. pop.js (retired)
 6. background.js (low) : high level details on target files, executable functionalities
