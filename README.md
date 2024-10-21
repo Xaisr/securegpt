@@ -23,3 +23,7 @@ ________________________________________________________________________________
 3. Open chatgpt or google and start chatting by writing your query.
 4. If you press 'tab' button then, your query in the searchbar is instantly anonymized if the anonymizer toggle has been set to green. If you want to submit this anonymized version of the query, then press enter. If you prefer your query to be not anonymous, then press 'Alt' and the anonymous query will again revert back to your original query
 5. After lot of testing, its found that Anonymizer is bad at anonymizing queries relating to mathematical equations and puzzles. For such queries, its better to keep anonymizer toggle off. 
+
+# Note
+1. Project still in progress
+2. Constructive Feedback is welcome
