@@ -14,7 +14,7 @@ ________________________________________________________________________________
 1. An Anonymizer class using pretrained ML based named entity recognition model identifies words that reveal potential personal information in user chat queries with chatgpt. Personal information could be names, organizations, credit card number, bank balance, phone numbers.
 2. These words are then replaced with anonymous placeholder words that are based on fuzzy logic matching with avg. threshold of 80
  
------------ Steps to make the extension work for you -------------
+# How to get started iwth this extension 
 
 1. Clone the repo and save it in a location x.
 2. Go to your browser options on top right > extensions > manage extensions > load unpapcked > choose location x > refresh.
