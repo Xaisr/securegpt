@@ -5,14 +5,16 @@ ________________________________________________________________________________
 # Contents
 1. manifest.js (critical) : js code containing meta details about wesbite permissions and accessibility rights.
 2. content.js (critical) : js code containing hows/whens/whats of the web page interaction with backend server logic
-3. popup.html (retired)
-4. pop.js (retired)
-5. background.js (low) : high level details on target files, executable functionalities
-6. ner_anonymizer(retired) : js version of backend anonymizer class. Potentially an alternate to running the anonymizer algorithm on a local flask server.
+3. anonap.py (critical) : python flask app that runs the anonymizing logic locally in the backend. its triggered when the user presses tab in the webpage.
+4. popup.html (retired)
+5. pop.js (retired)
+6. background.js (low) : high level details on target files, executable functionalities
+7. ner_anonymizer(retired) : js version of backend anonymizer class. Potentially an alternate to running the anonymizer algorithm on a local flask server.
 
 # How it works
 1. An Anonymizer class using pretrained ML based named entity recognition model identifies words that reveal potential personal information in user chat queries with chatgpt. Personal information could be names, organizations, credit card number, bank balance, phone numbers.
 2. These words are then replaced with anonymous placeholder words that are based on fuzzy logic matching with avg. threshold of 80
+3. The word-placeholder dictionary is maintained for reference and new assignment of placeholders based on fuzzy logic matching.
  
 # How to get started with this extension 
 
